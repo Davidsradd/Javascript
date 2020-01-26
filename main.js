@@ -5,8 +5,8 @@ window.alert("Welcome");
 console.log("I hope its working");
 
 //prompt, document.write
-var name = window.prompt("How are you doing?");
-document.write("Howdy" + response + "Thats great to hear, Im doing good myself");
+var name = window.prompt("Whats your name?");
+document.write("Howdy" + name + " ! Hope you're doing well, Im doing okay myself.");
 
 // Operators, numerical variable
 var Dogs = 4;
@@ -15,10 +15,9 @@ var animalsaddup;
 
 if(Dogs == Cats){
 animalsaddup = true
-}
-else if({
+} else {
     animalsaddup = false
-    })
+}
     
 document.write("animals add up:" + animalsaddup);
 
