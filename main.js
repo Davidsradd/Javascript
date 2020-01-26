@@ -6,7 +6,7 @@ console.log("I hope its working");
 
 //prompt, document.write
 var name = window.prompt("Whats your name?");
-document.write("Howdy" + name + " ! Hope you're doing well, Im doing okay myself.");
+document.write(" Howdy " + name + " ! Hope you're doing well, Im doing okay myself. ");
 
 // Operators, numerical variable
 var Dogs = 4;
@@ -19,7 +19,7 @@ animalsaddup = true
     animalsaddup = false
 }
     
-document.write("animals add up:" + animalsaddup);
+document.write(" animals add up: " + animalsaddup);
 
 // If statement
 var vehicle = "firetruck";
@@ -28,7 +28,7 @@ var color = "blue";
 if((vehicle == "firetruck") && (color == "red")) {
     document.write( "firetrucks are red.");
 } else{
-    document.write( "firetrucks are not that color, they're red.");
+    document.write( " firetrucks are not that color, they're red. ");
 }
 
 
@@ -36,6 +36,6 @@ if((vehicle == "firetruck") && (color == "red")) {
 
 var f= "George";
 var t= "Oscar";
-document.write("If" + f + "walks in, do not let" + t + "Know about it.");
+document.write(" If " + f + " walks in, do not let " + t + " know about it. ");
 
 
